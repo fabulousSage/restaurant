@@ -1,6 +1,7 @@
 /* white #c9c1ac */
 /* red color #d3325f */
 
+
 .info{ 
     background: #c9c1ac;
 }
@@ -19,7 +20,7 @@ body {
     word-spacing: 0.6rem;
 }
 
-info a {
+.info a {
     transition: color 2s ease-in-out;
 }
 .info a:hover{
@@ -104,7 +105,6 @@ info a {
         opacity: 1;
     }
 }
-
 
 .header-link {
     display: inline-block;
@@ -261,7 +261,7 @@ info a {
 /* menu */
 #menu {
     background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), 
-    url(../img/images4.jpg)center/cover fixed no-repeat;
+    url(./img/images4.jpg)center/cover fixed no-repeat;
 }
 
 .special {
@@ -407,23 +407,27 @@ info a {
 
 
 /* footer */
-#back-to-top {
-    background: #c9c1ac;
-    border-radius: 10px;
-    display: inline-block;
-}
 
-.scrollTop {
-    position: fixed;
-    bottom: 70px;
-    right: 10px;
-}
-
-
-
-
-
-
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  
 
 
 
